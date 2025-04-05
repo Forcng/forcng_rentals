@@ -7,9 +7,7 @@ Config.Prices = {
   bumpercar = 150,
 }
 
-Config.Keys = {
-  "mk_vehiclekeys",
-}
+Config.Keys = "mk_vehiclekeys"
 
 Config.Rents = {
     test = {
