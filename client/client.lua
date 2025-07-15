@@ -72,7 +72,7 @@ end)
 
 
 -- If you use a key system thats not here you can easily add it by going to your supported key system docs and adding it here.
-function GiveCarKeys(vehicle)
+local function GiveCarKeys(vehicle)
     if Config.Keys == "mk_vehiclekeys" then
         exports["mk_vehiclekeys"]:AddKey(vehicle)
     elseif Config.Keys == "wasabi_carlock" then
